@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+</head>
+<body>
+    <div id="cadastro" align = "center">
+        <form action="">
+            <label for="nome">Nome do Usuario</label><br>
+            <input type="text" name="nome" id="nome"><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email"><br>
+
+            <label for="senha">Senha</label><br>
+            <input type="password" name="senha" id="senha"><br>
+
+            <label for="genero">Genero</label><br>
+            <input type="radio" name="genero" value="M">Masculino 
+            <input type="radio" name="genero" value="F">Feminino 
+            <input type="radio" name="genero" value="PNI">Prefiro não informar<br>
+
+            <label for="numeroTelefone">Numero</label><br>
+            <input type="number" name="numeroTelefone" id="numeroTelefone"><br>
+
+            <label for="endereço">Endereço</label><br>
+            <input type="text" name="endereço" id="endereço"><br>
+
+            <label for="dataNascimento">Data de nascimento</label><br>
+            <input type="date" name="dataNascimento" id="dataNascimento"><br>
+
+            <label for="Estados">Estados</label>
+            <select name="Estados" id="Estados">
+                <option value="go">GO</option>
+                <option value="mg">MG</option>
+                <option value="mt">MT</option>
+                <option value="sp">SP</option>
+                <option value="rj">RJ</option>
+                <option value="sc">SC</option>
+            </select>
+
+            <label for="interesses">Interesses</label><br>
+            <input type="checkbox" name="interesses" id="interesses">Jogos <br>
+            <input type="checkbox" name="interesses" id="interesses">Basquete <br>
+            <input type="checkbox" name="interesses" id="interesses">Vôlei <br>
+            <input type="checkbox" name="interesses" id="interesses">Handball <br>
+        
+            <label for="observações">Observações</label><br>
+            <textarea name="observações" id="observações"></textarea><br>
+
+            <input type="submit" value="cadastrar">
+        
+            <p><img src="imagens/gear5.jpg" alt=""></p>
+        </form>
+    </div>
+</body>
+</html>
